@@ -3,7 +3,7 @@ name: This workflow is to trigger IAC pipeline using Terraform
 on:
   push:
     branches:
-      - main
+      - somebranch
 
 jobs:
   azure-login:
